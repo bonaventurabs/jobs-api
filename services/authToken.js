@@ -19,7 +19,6 @@ module.exports.authenticateToken = function(req, res, next) {
   });
 
   jwt.verify(token, process.env.TOKEN_SECRET, (err, user) => {
-    console.log(err)
     if (err) return next ({
       status: 403,
       message: 'Token not Valid!',
