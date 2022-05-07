@@ -8,6 +8,18 @@ RESTful API based on Node JS, Express JS, and SQLite.
 - Read All Jobs (opt: description, location, full_time, page)
 - Read Job by id
 
+## Valid User
+
+List of valid user:
+```
+username: admin
+password: 12345
+```
+```
+username: bona
+password: bona
+```
+
 ## Call the API
 
 Use these headers to make requests to the API:
